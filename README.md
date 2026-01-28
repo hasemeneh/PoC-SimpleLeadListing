@@ -14,3 +14,9 @@ Documentation
 ```
 github.com/hasemeneh/PoC-SimpleLeadListing/postman-collection/SimpleLeadListing.postman_collection.json
 ```
+
+Source : 
+
+https://github.com/shaliamekh/clean-architecture-fastapi/
+
+https://vite.dev/guide/
