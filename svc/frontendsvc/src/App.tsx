@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import { type Lead, type NewLead } from "./types"
-const API_BASE_URL = "http://localhost:8000/api";
+const API_BASE_URL = "https://poc-simpleleadlisting.onrender.com/api";
 
 function App() {
   const [leads, setLeads] = useState<Lead[]>([]);
