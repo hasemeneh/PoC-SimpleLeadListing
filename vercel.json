@@ -1,0 +1,14 @@
+{
+    "builds":[
+        {
+            "src":"svc/backendsvc/drivers/rest/main.py",
+            "use":"@vercel/python"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"svc/backendsvc/drivers/rest/main.py"
+        }
+    ]
+}
